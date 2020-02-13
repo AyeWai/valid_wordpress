@@ -1,0 +1,170 @@
+0000.000 (0) Opened log file at time: Thu, 13 Feb 2020 16:31:58 +0000 on http://localhost/wordpress
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.21 WP: 5.3.2 PHP: 7.2.24-0ubuntu0.18.04.1 (apache2handler, Linux apprenant-NUC7i5BNK 4.15.0-38-generic #41-Ubuntu SMP Wed Oct 10 10:59:38 UTC 2018 x86_64) MySQL: 5.7.27-0ubuntu0.18.04.1 WPLANG: fr_FR Server: Apache/2.4.29 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 16.5M | 4M) multisite: N openssl: OpenSSL 1.1.1  11 Sep 2018 mcrypt: N LANG: C ZipArchive::addFile: N
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 46278.6 MB
+0000.005 (0) Tasks: Backup files: 0 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.008 (0) Semaphore (d, val_options) being initialised
+0000.012 (0) Requesting semaphore lock (d) (apparently not via scheduler)
+0000.016 (0) Set semaphore last lock (d) time to 2020-02-13 16:31:58
+0000.018 (0) Semaphore lock (d) complete
+0000.024 (0) Backup run: resumption=0, nonce=5be2a638a399, file_nonce=5be2a638a399 begun at=1581611518 (0s ago), job type=backup
+0000.026 (0) Scheduling a resumption (1) after 300 seconds (1581611818) in case this run gets aborted
+0000.043 (0) This backup run is not intended for files - skipping
+0000.045 (0) Beginning creation of database dump (WordPress DB)
+0000.049 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0000.058 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `val_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCR (truncated - 1246 bytes total)
+0000.060 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0000.067 (0) Table val_options: Total expected rows (approximate): 195
+0000.093 (0) Table val_options: Total rows added: 195 in 0.02 seconds
+0000.096 (0) Table val_options: finishing file (backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_options.table.gz - 132.6 KB)
+0000.103 (0) Table val_users: Total expected rows (approximate): 1
+0000.104 (0) Table val_users: Total rows added: 1 in 0.00 seconds
+0000.106 (0) Table val_users: finishing file (backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_users.table.gz - 0.6 KB)
+0000.113 (0) Table val_usermeta: Total expected rows (approximate): 23
+0000.121 (0) Table val_usermeta: Total rows added: 23 in 0.00 seconds
+0000.125 (0) Table val_usermeta: finishing file (backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_usermeta.table.gz - 1.1 KB)
+0000.144 (0) Table val_commentmeta: Total expected rows (approximate): 0
+0000.151 (0) Table val_commentmeta: Total rows added: 0 in 0.00 seconds
+0000.155 (0) Table val_commentmeta: finishing file (backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_commentmeta.table.gz - 0.4 KB)
+0000.174 (0) Table val_comments: Total expected rows (approximate): 1
+0000.182 (0) Table val_comments: Total rows added: 1 in 0.00 seconds
+0000.187 (0) Table val_comments: finishing file (backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_comments.table.gz - 0.8 KB)
+0000.203 (0) Table val_links: Total expected rows (approximate): 0
+0000.212 (0) Table val_links: Total rows added: 0 in 0.01 seconds
+0000.217 (0) Table val_links: finishing file (backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_links.table.gz - 0.4 KB)
+0000.229 (0) Table val_postmeta: Total expected rows (approximate): 144
+0000.235 (0) Table val_postmeta: Total rows added: 144 in 0.00 seconds
+0000.239 (0) Table val_postmeta: finishing file (backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_postmeta.table.gz - 3 KB)
+0000.248 (0) Table val_posts: Total expected rows (approximate): 36
+0000.256 (0) Table val_posts: Total rows added: 36 in 0.01 seconds
+0000.260 (0) Table val_posts: finishing file (backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_posts.table.gz - 6.1 KB)
+0000.274 (0) Table val_term_relationships: Total expected rows (approximate): 7
+0000.284 (0) Table val_term_relationships: Total rows added: 7 in 0.00 seconds
+0000.290 (0) Table val_term_relationships: finishing file (backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_term_relationships.table.gz - 0.4 KB)
+0000.305 (0) Table val_term_taxonomy: Total expected rows (approximate): 2
+0000.314 (0) Table val_term_taxonomy: Total rows added: 2 in 0.00 seconds
+0000.320 (0) Table val_term_taxonomy: finishing file (backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_term_taxonomy.table.gz - 0.4 KB)
+0000.337 (0) Table val_termmeta: Total expected rows (approximate): 0
+0000.344 (0) Table val_termmeta: Total rows added: 0 in 0.00 seconds
+0000.351 (0) Table val_termmeta: finishing file (backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_termmeta.table.gz - 0.4 KB)
+0000.364 (0) Table val_terms: Total expected rows (approximate): 2
+0000.367 (0) Table val_terms: Total rows added: 2 in 0.00 seconds
+0000.369 (0) Table val_terms: finishing file (backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_terms.table.gz - 0.4 KB)
+0000.379 (0) Table val_wfblockediplog: Total expected rows (approximate): 0
+0000.383 (0) Table val_wfblockediplog: Total rows added: 0 in 0.00 seconds
+0000.386 (0) Table val_wfblockediplog: finishing file (backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wfblockediplog.table.gz - 0.3 KB)
+0000.399 (0) Table val_wfblocks7: Total expected rows (approximate): 0
+0000.409 (0) Table val_wfblocks7: Total rows added: 0 in 0.00 seconds
+0000.414 (0) Table val_wfblocks7: finishing file (backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wfblocks7.table.gz - 0.4 KB)
+0000.427 (0) Table val_wfconfig: Total expected rows (approximate): 232
+0000.444 (0) Table val_wfconfig: Total rows added: 232 in 0.01 seconds
+0000.448 (0) Table val_wfconfig: finishing file (backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wfconfig.table.gz - 15.2 KB)
+0000.462 (0) Table val_wfcrawlers: Total expected rows (approximate): 0
+0000.469 (0) Table val_wfcrawlers: Total rows added: 0 in 0.00 seconds
+0000.474 (0) Table val_wfcrawlers: finishing file (backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wfcrawlers.table.gz - 0.3 KB)
+0000.494 (0) Table val_wffilechanges: Total expected rows (approximate): 0
+0000.501 (0) Table val_wffilechanges: Total rows added: 0 in 0.00 seconds
+0000.505 (0) Table val_wffilechanges: finishing file (backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wffilechanges.table.gz - 0.3 KB)
+0000.517 (0) Table val_wffilemods: Total expected rows (approximate): 0
+0000.521 (0) Table val_wffilemods: Total rows added: 0 in 0.00 seconds
+0000.523 (0) Table val_wffilemods: finishing file (backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wffilemods.table.gz - 0.4 KB)
+0000.531 (0) Table val_wfhits: Total expected rows (approximate): 0
+0000.533 (0) Table val_wfhits: Total rows added: 0 in 0.00 seconds
+0000.536 (0) Table val_wfhits: finishing file (backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wfhits.table.gz - 0.4 KB)
+0000.541 (0) Table val_wfhoover: Total expected rows (approximate): 0
+0000.544 (0) Table val_wfhoover: Total rows added: 0 in 0.00 seconds
+0000.546 (0) Table val_wfhoover: finishing file (backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wfhoover.table.gz - 0.3 KB)
+0000.554 (0) Table val_wfissues: Total expected rows (approximate): 0
+0000.558 (0) Table val_wfissues: Total rows added: 0 in 0.00 seconds
+0000.560 (0) Table val_wfissues: finishing file (backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wfissues.table.gz - 0.4 KB)
+0000.567 (0) Table val_wfknownfilelist: Total expected rows (approximate): 0
+0000.569 (0) Table val_wfknownfilelist: Total rows added: 0 in 0.00 seconds
+0000.571 (0) Table val_wfknownfilelist: finishing file (backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wfknownfilelist.table.gz - 0.3 KB)
+0000.577 (0) Table val_wflivetraffichuman: Total expected rows (approximate): 0
+0000.579 (0) Table val_wflivetraffichuman: Total rows added: 0 in 0.00 seconds
+0000.581 (0) Table val_wflivetraffichuman: finishing file (backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wflivetraffichuman.table.gz - 0.3 KB)
+0000.588 (0) Table val_wflocs: Total expected rows (approximate): 0
+0000.591 (0) Table val_wflocs: Total rows added: 0 in 0.00 seconds
+0000.592 (0) Table val_wflocs: finishing file (backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wflocs.table.gz - 0.4 KB)
+0000.600 (0) Table val_wflogins: Total expected rows (approximate): 0
+0000.603 (0) Table val_wflogins: Total rows added: 0 in 0.00 seconds
+0000.605 (0) Table val_wflogins: finishing file (backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wflogins.table.gz - 0.4 KB)
+0000.613 (0) Table val_wfls_2fa_secrets: Total expected rows (approximate): 0
+0000.616 (0) Table val_wfls_2fa_secrets: Total rows added: 0 in 0.00 seconds
+0000.618 (0) Table val_wfls_2fa_secrets: finishing file (backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wfls_2fa_secrets.table.gz - 0.4 KB)
+0000.624 (0) Table val_wfls_settings: Total expected rows (approximate): 19
+0000.627 (0) Table val_wfls_settings: Total rows added: 19 in 0.00 seconds
+0000.628 (0) Table val_wfls_settings: finishing file (backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wfls_settings.table.gz - 0.7 KB)
+0000.633 (0) Table val_wfnotifications: Total expected rows (approximate): 1
+0000.638 (0) Table val_wfnotifications: Total rows added: 1 in 0.00 seconds
+0000.639 (0) Table val_wfnotifications: finishing file (backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wfnotifications.table.gz - 0.5 KB)
+0000.644 (0) Table val_wfpendingissues: Total expected rows (approximate): 0
+0000.649 (0) Table val_wfpendingissues: Total rows added: 0 in 0.00 seconds
+0000.651 (0) Table val_wfpendingissues: finishing file (backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wfpendingissues.table.gz - 0.4 KB)
+0000.656 (0) Table val_wfreversecache: Total expected rows (approximate): 0
+0000.659 (0) Table val_wfreversecache: Total rows added: 0 in 0.00 seconds
+0000.660 (0) Table val_wfreversecache: finishing file (backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wfreversecache.table.gz - 0.3 KB)
+0000.665 (0) Table val_wfsnipcache: Total expected rows (approximate): 0
+0000.669 (0) Table val_wfsnipcache: Total rows added: 0 in 0.00 seconds
+0000.672 (0) Table val_wfsnipcache: finishing file (backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wfsnipcache.table.gz - 0.4 KB)
+0000.680 (0) Table val_wfstatus: Total expected rows (approximate): 10
+0000.683 (0) Table val_wfstatus: Total rows added: 10 in 0.00 seconds
+0000.684 (0) Table val_wfstatus: finishing file (backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wfstatus.table.gz - 0.7 KB)
+0000.689 (0) Table val_wftrafficrates: Total expected rows (approximate): 0
+0000.693 (0) Table val_wftrafficrates: Total rows added: 0 in 0.00 seconds
+0000.695 (0) Table val_wftrafficrates: finishing file (backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wftrafficrates.table.gz - 0.3 KB)
+0000.701 (0) backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_options.table.gz (1/33): adding to final database dump
+0000.725 (0) backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_users.table.gz (2/33): adding to final database dump
+0000.727 (0) backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_usermeta.table.gz (3/33): adding to final database dump
+0000.729 (0) backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_commentmeta.table.gz (4/33): adding to final database dump
+0000.731 (0) backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_comments.table.gz (5/33): adding to final database dump
+0000.733 (0) backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_links.table.gz (6/33): adding to final database dump
+0000.738 (0) backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_postmeta.table.gz (7/33): adding to final database dump
+0000.743 (0) backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_posts.table.gz (8/33): adding to final database dump
+0000.748 (0) backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_term_relationships.table.gz (9/33): adding to final database dump
+0000.750 (0) backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_term_taxonomy.table.gz (10/33): adding to final database dump
+0000.752 (0) backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_termmeta.table.gz (11/33): adding to final database dump
+0000.755 (0) backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_terms.table.gz (12/33): adding to final database dump
+0000.757 (0) backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wfblockediplog.table.gz (13/33): adding to final database dump
+0000.760 (0) backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wfblocks7.table.gz (14/33): adding to final database dump
+0000.761 (0) backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wfconfig.table.gz (15/33): adding to final database dump
+0000.767 (0) backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wfcrawlers.table.gz (16/33): adding to final database dump
+0000.770 (0) backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wffilechanges.table.gz (17/33): adding to final database dump
+0000.773 (0) backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wffilemods.table.gz (18/33): adding to final database dump
+0000.776 (0) backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wfhits.table.gz (19/33): adding to final database dump
+0000.780 (0) backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wfhoover.table.gz (20/33): adding to final database dump
+0000.783 (0) backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wfissues.table.gz (21/33): adding to final database dump
+0000.785 (0) backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wfknownfilelist.table.gz (22/33): adding to final database dump
+0000.789 (0) backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wflivetraffichuman.table.gz (23/33): adding to final database dump
+0000.794 (0) backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wflocs.table.gz (24/33): adding to final database dump
+0000.799 (0) backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wflogins.table.gz (25/33): adding to final database dump
+0000.804 (0) backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wfls_2fa_secrets.table.gz (26/33): adding to final database dump
+0000.809 (0) backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wfls_settings.table.gz (27/33): adding to final database dump
+0000.814 (0) backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wfnotifications.table.gz (28/33): adding to final database dump
+0000.819 (0) backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wfpendingissues.table.gz (29/33): adding to final database dump
+0000.824 (0) backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wfreversecache.table.gz (30/33): adding to final database dump
+0000.829 (0) backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wfsnipcache.table.gz (31/33): adding to final database dump
+0000.834 (0) backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wfstatus.table.gz (32/33): adding to final database dump
+0000.841 (0) backup_2020-02-13-1731_ITAkademy_5be2a638a399-db-table-val_wftrafficrates.table.gz (33/33): adding to final database dump
+0000.847 (0) backup_2020-02-13-1731_ITAkademy_5be2a638a399-db.gz: finished writing out complete database file (160 KB)
+0000.872 (0) Total database tables backed up: 33 (backup_2020-02-13-1731_ITAkademy_5be2a638a399-db.gz, size: 165066, sha1: 56fc960c11dbe7866069ea4274843ed703192ab7, sha256: 0c8e6619bc3dea92564532164e17668fd29dc0b60c206f16635559510f46cd4d)
+0000.892 (0) backup_2020-02-13-1731_ITAkademy_5be2a638a399-db.gz: db: This file has not yet been successfully uploaded: will queue
+0000.896 (0) Saving backup history. Total backup size: 161.2 KB
+0000.907 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0000.918 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0000.922 (0) No remote despatch: user chose no remote backup service
+0000.926 (0) Recording as successfully uploaded: backup_2020-02-13-1731_ITAkademy_5be2a638a399-db.gz
+0000.940 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0000.946 (0) Number of backup sets in history: 1; groups (db): 1
+0000.950 (0) Examining (for databases) backup set with group_id=0, nonce=5be2a638a399, datestamp=1581611518 (Feb 13 2020 16:31:58)
+0000.955 (0) This backup set is the backup set just made, so will not be deleted.
+0000.955 (0) Number of backup sets in history: 1; groups (files): 1
+0000.959 (0) Examining (for files) backup set with nonce=5be2a638a399, datestamp=1581611518 (Feb 13 2020 16:31:58)
+0000.960 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.964 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0000.974 (0) Resume backup (5be2a638a399, 0): finish run
+0000.985 (0) Decremented the semaphore (d) by 1
+0000.993 (0) Semaphore (d) unlocked
+0000.998 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0001.012 (0) The backup apparently succeeded and is now complete
+0001.017 (0) No email will/can be sent - the user has not configured an email address.
+0001.021 (0) La sauvegarde a réussie. Elle est maintenant terminée.

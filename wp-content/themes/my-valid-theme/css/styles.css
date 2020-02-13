@@ -1,0 +1,42 @@
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+main > .container {
+  padding: 60px 15px 0;
+}
+
+.footer {
+  background-color: #f5f5f5;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+.home-header, .page-header{
+  background: url('../img/bg-home.jpg');
+  background-size: cover;
+  background-position: bottom center;
+  display: flex;
+  min-height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+.home-header h1, .page-header h1{
+  font-size: 3.2em;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 50px;
+}
+.page-header{
+  background: #888;
+  min-height: 100px;
+}
+.page-header h1{
+  font-size: 2.2em;
+}

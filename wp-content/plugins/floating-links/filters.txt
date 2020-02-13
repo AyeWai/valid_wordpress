@@ -1,0 +1,466 @@
+======================================================================
+	Filters Included In Floating Links 
+======================================================================
+
+You can Add custom Icons into the list for selecting. Shows in WP customizer.
+
+======== fl_left_icons ========
+
+Filter will be used to add any custom icon for Left/previous Icon List.
+
+Example
+
+/*
+ * Adding custom Icon into the list
+ */	
+function fl_left_icons_cb($icons){
+
+	/*
+	 * Adding arrow-left icon to the list from fontawesome.
+	 * Choose any icon from fontawesome list. Here you can find all icons->https://fontawesome.com/v4.7.0/icons/
+	 * Use only name of the icon like "fa fa-arrow-left" would be only "arrow-left"
+	 */		
+	 $icons[] = 'arrow-left';
+
+	 /*
+	 * Returning back the icons list.
+	 */	
+	 return $icons;
+}
+/*
+ * Filter to add custom icon into home icons list.
+ */	
+add_filter('fl_left_icons', 'fl_left_icons_cb');
+
+======== fl_right_icons ========
+
+Filter will be used to add any custom icon for Right/Next Icon List.
+
+Example
+
+/*
+ * Adding custom Icon into the list
+ */	
+function fl_right_icons_cb($icons){
+
+	/*
+	 * Adding arrow-left icon to the list from fontawesome.
+	 * Choose any icon from fontawesome list. Here you can find all icons->https://fontawesome.com/v4.7.0/icons/
+	 * Use only name of the icon like "fa fa-arrow-left" would be only "arrow-left"
+	 */		
+	 $icons[] = 'arrow-right';
+
+	 /*
+	 * Returning back the icons list.
+	 */	
+	 return $icons;
+}
+/*
+ * Filter to add custom icon into home icons list.
+ */	
+add_filter('fl_right_icons', 'fl_right_icons_cb');
+
+======== fl_random_icons ========
+
+Filter will be used to add any custom icon for Random Icon List.
+
+Example
+
+/*
+ * Adding custom Icon into the list
+ */	
+function fl_random_icons_cb($icons){
+
+	/*
+	 * Adding arrow-left icon to the list from fontawesome.
+	 * Choose any icon from fontawesome list. Here you can find all icons->https://fontawesome.com/v4.7.0/icons/
+	 * Use only name of the icon like "fa fa-arrow-left" would be only "arrow-left"
+	 */		
+	 $icons[] = 'arrow-right';
+
+	 /*
+	 * Returning back the icons list.
+	 */	
+	 return $icons;
+}
+/*
+ * Filter to add custom icon into home icons list.
+ */	
+add_filter('fl_random_icons', 'fl_random_icons_cb');
+
+
+======== fl_up_icons ========
+
+Filter will be used to add any custom icon for UP/To Top Icon List.
+
+Example
+
+/*
+ * Adding custom Icon into the list
+ */	
+function fl_up_icons_cb($icons){
+
+	/*
+	 * Adding arrow-left icon to the list from fontawesome.
+	 * Choose any icon from fontawesome list. Here you can find all icons->https://fontawesome.com/v4.7.0/icons/
+	 * Use only name of the icon like "fa fa-arrow-left" would be only "arrow-left"
+	 */		
+	 $icons[] = 'arrow-right';
+
+	 /*
+	 * Returning back the icons list.
+	 */	
+	 return $icons;
+}
+/*
+ * Filter to add custom icon into home icons list.
+ */	
+add_filter('fl_up_icons', 'fl_up_icons_cb');
+
+======== fl_down_icons ========
+
+Filter will be used to add any custom icon for Down/To Bottom Icon List.
+
+Example
+
+/*
+ * Adding custom Icon into the list
+ */	
+function fl_down_icons_cb($icons){
+
+	/*
+	 * Adding arrow-left icon to the list from fontawesome.
+	 * Choose any icon from fontawesome list. Here you can find all icons->https://fontawesome.com/v4.7.0/icons/
+	 * Use only name of the icon like "fa fa-arrow-left" would be only "arrow-left"
+	 */		
+	 $icons[] = 'arrow-right';
+
+	 /*
+	 * Returning back the icons list.
+	 */	
+	 return $icons;
+}
+/*
+ * Filter to add custom icon into home icons list.
+ */	
+add_filter('fl_down_icons', 'fl_down_icons_cb');
+
+======== fl_home_icons ========
+
+Filter will be used to add any custom icon for Home Icon List.
+
+Example
+
+/*
+ * Adding custom Icon into the list
+ */	
+function fl_home_icons_cb($icons){
+
+	/*
+	 * Adding arrow-left icon to the list from fontawesome.
+	 * Choose any icon from fontawesome list. Here you can find all icons->https://fontawesome.com/v4.7.0/icons/
+	 * Use only name of the icon like "fa fa-arrow-left" would be only "arrow-left"
+	 */		
+	 $icons[] = 'arrow-right';
+
+	 /*
+	 * Returning back the icons list.
+	 */	
+	 return $icons;
+}
+/*
+ * Filter to add custom icon into home icons list.
+ */	
+add_filter('fl_home_icons', 'fl_home_icons_cb');
+
+
+======== fl_copy_url_icons ========
+
+Filter will be used to add any custom icon for Copy URL Icon List.
+
+Example
+
+/*
+ * Adding custom Icon into the list
+ */	
+function fl_copy_url_icons_cb($icons){
+
+	/*
+	 * Adding arrow-left icon to the list from fontawesome.
+	 * Choose any icon from fontawesome list. Here you can find all icons->https://fontawesome.com/v4.7.0/icons/
+	 * Use only name of the icon like "fa fa-arrow-left" would be only "arrow-left"
+	 */		
+	 $icons[] = 'arrow-right';
+
+	 /*
+	 * Returning back the icons list.
+	 */	
+	 return $icons;
+}
+/*
+ * Filter to add custom icon into home icons list.
+ */	
+add_filter('fl_copy_url_icons', 'fl_copy_url_icons_cb');
+
+======== fl_slimer_close_icons ========
+
+Filter will be used to add any custom icon for Minimzer Close Icon List.
+
+Example
+
+/*
+ * Adding custom Icon into the list
+ */	
+function fl_slimer_close_icons_cb($icons){
+
+	/*
+	 * Adding arrow-left icon to the list from fontawesome.
+	 * Choose any icon from fontawesome list. Here you can find all icons->https://fontawesome.com/v4.7.0/icons/
+	 * Use only name of the icon like "fa fa-arrow-left" would be only "arrow-left"
+	 */		
+	 $icons[] = 'arrow-right';
+
+	 /*
+	 * Returning back the icons list.
+	 */	
+	 return $icons;
+}
+/*
+ * Filter to add custom icon into home icons list.
+ */	
+add_filter('fl_slimer_close_icons', 'fl_slimer_close_icons_cb');
+
+======== fl_slimer_open_icons ========
+
+Filter will be used to add any custom icon for Minimzer Open Icon List.
+
+Example
+
+/*
+ * Adding custom Icon into the list
+ */	
+function fl_slimer_open_icons_cb($icons){
+
+	/*
+	 * Adding arrow-left icon to the list from fontawesome.
+	 * Choose any icon from fontawesome list. Here you can find all icons->https://fontawesome.com/v4.7.0/icons/
+	 * Use only name of the icon like "fa fa-arrow-left" would be only "arrow-left"
+	 */		
+	 $icons[] = 'arrow-right';
+
+	 /*
+	 * Returning back the icons list.
+	 */	
+	 return $icons;
+}
+/*
+ * Filter to add custom icon into home icons list.
+ */	
+add_filter('fl_slimer_open_icons', 'fl_slimer_open_icons_cb');
+
+======================================================================
+	Frontend Filters
+======================================================================
+You can filter the frontend output of the Floating Bar
+
+======== fl_next_icon_html ========
+
+Filter will be used to Change the output of next icon html.
+
+Example
+
+/*
+ * Adding Post Date to next Post Hover Data
+ * $content Holds HTML of the next Icon
+ * $object Holds the object of next post data, Icon name, Is disabled, href tag
+ */	
+function fl_next_icon_html_cb($content, $object){
+	
+	/*
+	 * Getting the date format set in the dashboard settings.
+	 */
+	$date_format = get_option('date_format', false);
+
+	/*
+	 * Getting the date of next post.
+	 */
+	$post_date = get_the_date($date_format, $object);
+
+	/*
+	 * Creating the HTML with Post Date on hPost Hover Data
+	 */
+	$content = '<a '.$object->href_html.' class="'.$object->disabled.' fl_icon_holder" rel="next">
+						<i class="fl_right_icon '.$object->icon.'"></i>
+						<div class="fl_post_details">
+							<div class="fl_post_title"><small>Next Up</small><span class="fl_date">'.$post_date.'</span></div>
+							<div class="fl_post_description"><h6>'.$object->post_title.'</h6><p>'.$object->post_content.'</p></div>
+						</div>
+						</a>';
+	/*
+	 * Returning back the content
+	 */					
+	return $content;					
+}
+/*
+ * Filter to Change output of next icon HTML.
+ */
+add_filter('fl_next_icon_html', 'fl_next_icon_html_cb', 10, 2);
+
+======== fl_previous_icon_html ========
+
+Filter will be used to Change the output of next icon html.
+
+Example
+
+/*
+ * Adding Post Date to Previous Post Hover Data
+ * $content Holds HTML of the Previous Icon
+ * $object Holds the object of Previous post data, Icon name, Is disabled, href tag
+ */	
+function fl_previous_icon_html_cb($content, $object){
+	
+	/*
+	 * Getting the date format set in the dashboard settings.
+	 */
+	$date_format = get_option('date_format', false);
+
+	/*
+	 * Getting the date of Previous post.
+	 */
+	$post_date = get_the_date($date_format, $object);
+
+	/*
+	 * Creating the HTML with Post Date on hPost Hover Data
+	 */
+	$content = '<a '.$object->href_html.' class="'.$object->disabled.' fl_icon_holder" rel="Previous">
+						<i class="fl_left_icon '.$object->icon.'"></i>
+						<div class="fl_post_details">
+							<div class="fl_post_title"><small>Next Up</small><span class="fl_date">'.$post_date.'</span></div>
+							<div class="fl_post_description"><h6>'.$object->post_title.'</h6><p>'.$object->post_content.'</p></div>
+						</div>
+						</a>';
+	/*
+	 * Returning back the content
+	 */					
+	return $content;					
+}
+/*
+ * Filter to Change output of next icon HTML.
+ */
+add_filter('fl_previous_icon_html', 'fl_previous_icon_html_cb', 10, 2);
+
+======== fl_random_icon_html ========
+
+Filter will be used to Change the output of next icon html.
+
+Example
+
+/*
+ * Adding Post Date to random Post Hover Data
+ * $content Holds HTML of the random Icon
+ * $object Holds the object of random post data, Icon name, Is disabled, href tag
+ */	
+function fl_random_icon_html_cb($content, $object){
+	
+	/*
+	 * Getting the date format set in the dashboard settings.
+	 */
+	$date_format = get_option('date_format', false);
+
+	/*
+	 * Getting the date of random post.
+	 */
+	$post_date = get_the_date($date_format, $object);
+
+	/*
+	 * Creating the HTML with Post Date on hPost Hover Data
+	 */
+	$content = '<a '.$object->href_html.' class="'.$object->disabled.' fl_icon_holder" rel="Random">
+						<i class="fl_left_icon '.$object->icon.'"></i>
+						<div class="fl_post_details">
+							<div class="fl_post_title"><small>Next Up</small><span class="fl_date">'.$post_date.'</span></div>
+							<div class="fl_post_description"><h6>'.$object->post_title.'</h6><p>'.$object->post_content.'</p></div>
+						</div>
+						</a>';
+	/*
+	 * Returning back the content
+	 */					
+	return $content;					
+}
+/*
+ * Filter to Change output of next icon HTML.
+ */
+add_filter('fl_random_icon_html', 'fl_random_icon_html_cb', 10, 2);
+
+====== fl_up_icon_html ========
+
+Filter will be used to Change the output of fl_up_icon_html icon html.
+
+Example
+Let's add Go to top text after Icon
+
+/*
+ * Adding Go to top text after Icon
+ * $content Holds HTML of the Up Icon
+ * $icon Holds the Icon class
+ */
+function fl_up_icon_html_cb($content, $icon){
+	/*
+	 * Adding the title
+	 */	
+	return '<a title="'.__('Go to top', 'floating-links').'" href="#" id="fl_to_top"><i class="fl_top_icon '.$icon.'" aria-hidden="true"></i>'.__('Go to top', 'floating-links').'</a>';					
+}
+/*
+ * Filter to Change output of up icon HTML.
+ */
+add_filter('fl_up_icon_html', 'fl_up_icon_html_cb', 10, 2);
+
+====== fl_up_icon_html ========
+
+Filter will be used to Change the output of fl_up_icon_html icon html.
+
+Example
+Let's add Go to top text after Icon
+
+/*
+ * Adding Go to Bottom text after Icon
+ * $content Holds HTML of the Bottom Icon
+ * $icon Holds the Icon class
+ */
+function fl_down_icon_html_cb($content, $icon){
+	/*
+	 * Adding the title
+	 */	
+	return '<a title="'.__('Go to Bottom', 'floating-links').'" href="#" id="fl_to_bottom"><i class="fl_bottom_icon '.$icon.'" aria-hidden="true"></i>'.__('Go to Bottom', 'floating-links').'</a>';					
+}
+/*
+ * Filter to Change output of up icon HTML.
+ */
+add_filter('fl_down_icon_html', 'fl_down_icon_html_cb', 10, 2);
+
+====== fl_home_icon_html ========
+
+Filter will be used to Change the output of fl_up_icon_html icon html.
+
+Example
+Let's add Go to top text after Icon
+
+/*
+ * Adding Home text after Icon
+ * $content Holds HTML of the home Icon
+ * $icon Holds the Icon class
+ */
+function fl_home_icon_html_cb($content, $icon){
+	/*
+	 * Adding the title
+	 */	
+	return '<a title="'.__('Go to Home', 'floating-links').'" href="'.site_url().'" id="fl_home"><i class="fl_home_icon '.$icon.'" aria-hidden="true"></i>'.__('Go to Home', 'floating-links').'</a>';					
+}
+/*
+ * Filter to Change output of up icon HTML.
+ */
+add_filter('fl_home_icon_html', 'fl_home_icon_html_cb', 10, 2);
+
+====== fl_copy_icon_html ======== For Copy URL icon
+====== fl_minimizer_icon_html ======== For Minimizer icon
+====== fl_bar_html ======== For Full Floating Bar
